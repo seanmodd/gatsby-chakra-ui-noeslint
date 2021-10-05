@@ -1,0 +1,50 @@
+{
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#00000000",
+    "editorWarning.foreground": "#00000000",
+    "editorInfo.foreground": "#00000000",
+    "activityBar.background": "#1c2f3d",
+    "titleBar.activeBackground": "#8100a1b4",
+    "titleBar.activeForeground": "#e7e7e7",
+    "activityBar.activeBackground": "#8100a1b4",
+    "activityBar.activeBorder": "#994676",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#994676",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "editorGroup.border": "#1c2f3d",
+    "panel.border": "#1c2f3d",
+    "sash.hoverBorder": "#1c2f3d",
+    "sideBar.border": "#1c2f3d",
+    "statusBar.background": "#0c141a",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#1c2f3d",
+    "statusBarItem.remoteBackground": "#0c141a",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#0c141a99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "editor.formatOnSave": true,
+  "markdownlint.run": "onType",
+  "eslint.alwaysShowStatus": true,
+
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+
+  // Enables ESLint as a formatter.
+  "eslint.format.enable": true,
+  "eslint.run": "onType",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "peacock.color": "#0c141a"
+}
